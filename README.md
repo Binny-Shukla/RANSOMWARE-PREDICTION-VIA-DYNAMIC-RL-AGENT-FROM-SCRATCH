@@ -51,17 +51,19 @@ Evaluated across **1,800 test traces** covering benign system activity and five 
 ### 1. Detection Rate by Ransomware Family
 Consistently high recall across heterogeneous attack profiles, demonstrating robust generalization beyond static signature patterns.
 
-C:\Users\kiosh\Downloads\aakash_2\family_detection_rate.png
+<img width="2400" height="1500" alt="family_detection_rate" src="https://github.com/user-attachments/assets/a368f486-1df1-441a-b666-6a5066acbca3" />
+
 
 ### 2. Detection Latency vs. File Damage Trade-Off
 Illustrates how the RL policy automatically learns family-specific stopping boundaries:
 
-C:\Users\kiosh\Downloads\aakash_2\results_comparison.png
+<img width="4200" height="1500" alt="results_comparison" src="https://github.com/user-attachments/assets/818b1276-6143-413e-b65a-82b5db5d235f" />
+
 
 ### 3. Cumulative Damage Prevention
 The agent terminates ransomware processes right as the encryption loop begins, truncating damage curves near zero compared to unchecked baseline execution (dotted lines):
 
-C:\Users\kiosh\Downloads\aakash_2\family_damage_prevention_curves.png
+<img width="2700" height="1800" alt="family_damage_prevention_curves" src="https://github.com/user-attachments/assets/98bdafb7-f85d-4212-9479-1b35114adaad" />
 
 ---
 
