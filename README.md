@@ -140,8 +140,6 @@ At each step $t$, given state $s_t$ and action $a_t$:
 ### 1. Prerequisites & Environment Setup
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/YashsTiwari/Used-Car-Price-Prediction.git
-cd Used-Car-Price-Prediction
 pip install torch numpy scikit-learn matplotlib
 ```
 
